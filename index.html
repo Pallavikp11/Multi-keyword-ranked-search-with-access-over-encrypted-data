@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practical Multi-keyword Ranked Search</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+    </head>
+    <body>
+        <!-- Page Loader -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <i class="fas fa-bars mr-2"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2 active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2" href="DO_login.jsp">Data Owner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2" href="DU_login.jsp">Data User</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2" href="Cloud_login.jsp">Cloud</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="tm-hero d-flex justify-content-center align-items-center" id="tm-video-container">
+            <video autoplay muted loop id="tm-video">
+                <source src="video/search.mp4" type="video/mp4">
+            </video> 
+            <div class="intro-content">
+                <h3>Practical Multi-keyword Ranked Search with
+                    Access Control over Encrypted Cloud Data</h3>
+            </div>
+        </div>
+        <div class="container-fluid tm-mt-60">
+            <div class="row tm-mb-50">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <br>
+                    <center>
+                        <h2 class="tm-text-primary ">ABSTRACT</h2>
+                    </center>
+                    <h5><p align="justify" style="color: black;">
+                            <br>With the explosive growth of data volume in the cloud computing environment, data owners are increasingly inclined to store
+                            their data on the cloud. Although data outsourcing reduces computation and storage costs for them, it inevitably brings new security
+                            and privacy concerns, as the data owners lose direct control of sensitive data. Meanwhile, most of the existing ranked keyword search
+                            schemes mainly focus on enriching search efficiency or functionality, but lack of providing efficient access control and formal security
+                            analysis simultaneously. To address these limitations, in this paper we propose an efficient and privacy-preserving Multi-keyword
+                            Ranked Search scheme with Fine-grained access control (MRSF). MRSF can realize highly accurate ciphertext retrieval by combining
+                            coordinate matching with Term Frequency-Inverse Document Frequency (TF-IDF) and improving the secure kNN method. Besides, it
+                            can effectively refine users’ search privileges by utilizing the polynomial-based access strategy. Formal security analysis shows that
+                            MRSF is secure in terms of confidentiality of outsourced data and the privacy of index and tokens. Extensive experiments further show
+                            that, compared with existing schemes, MRSF achieves higher search accuracy and more functionalities efficiently.
+                        </p></h5>              
+                </div> 
+            </div>
+        </div>
+        <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+            <div class="container-fluid tm-container-small">
+                <div class="row">
+                </div>
+            </div>
+        </footer>
+        <script src="js/plugins.js"></script>
+        <script>
+            $(window).on("load", function () {
+                $('body').addClass('loaded');
+            });
+        </script>
+    </body>
+</html>
